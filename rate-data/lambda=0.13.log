@@ -1,0 +1,89 @@
+2023-04-15 17:10:05,713 - cli.py - This is Paynt version 0.1.0.
+2023-04-15 17:10:05,714 - sketch.py - loading sketch from ./models/pomdp/no-goal-state/blind-nanny/sketch.templ ...
+2023-04-15 17:10:05,716 - prism_parser.py - PRISM model type: PrismModelType.POMDP
+2023-04-15 17:10:05,716 - prism_parser.py - loading properties from ./models/pomdp/no-goal-state/blind-nanny/sketch.props ...
+2023-04-15 17:10:05,716 - prism_parser.py - found the following specification: constraints: LRA>3/5 ["goal1"],LRA>3/5 ["goal2"], optimality objective: none
+2023-04-15 17:10:05,736 - sketch.py - constructed explicit quotient having 27 states and 90 actions
+2023-04-15 17:10:05,736 - sketch.py - found the following specification constraints: LRA>3/5 ["goal1"],LRA>3/5 ["goal2"], optimality objective: none
+2023-04-15 17:10:05,736 - quotient_pomdp.py - Constructed POMDP having 15 observations.
+2023-04-15 17:10:05,736 - quotient_pomdp.py - Unfolding POMDP using the following memory allocation vector: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] ...
+2023-04-15 17:10:05,736 - quotient_pomdp.py - Constructed quotient MDP having 27 states and 90 actions.
+2023-04-15 17:10:05,737 - synthesizer.py - Synthesis initiated.
+> Progress 3.3221%, elapsed 3.5 s, iters = (889, 0), opt = -
+> Progress 3.3281%, elapsed 6.0 s, iters = (1124, 0), opt = -
+> Progress 3.4183%, elapsed 9.0 s, iters = (1277, 0), opt = -
+> Progress 3.6157%, elapsed 12.0 s, iters = (2240, 0), opt = -
+> Progress 3.7125%, elapsed 15.5 s, iters = (2795, 0), opt = -
+> Progress 3.7126%, elapsed 18.9 s, iters = (2803, 0), opt = -
+> Progress 3.7186%, elapsed 21.8 s, iters = (3164, 0), opt = -
+> Progress 3.8086%, elapsed 25.0 s, iters = (3303, 0), opt = -
+> Progress 3.8087%, elapsed 27.1 s, iters = (3305, 0), opt = -
+> Progress 3.8109%, elapsed 30.7 s, iters = (3351, 0), opt = -
+> Progress 3.811%, elapsed 33.9 s, iters = (3357, 0), opt = -
+> Progress 3.8148%, elapsed 36.9 s, iters = (3468, 0), opt = -
+> Progress 3.8171%, elapsed 39.9 s, iters = (3516, 0), opt = -
+> Progress 5.0781%, elapsed 42.0 s, iters = (4211, 0), opt = -
+> Progress 5.2735%, elapsed 47.0 s, iters = (4323, 0), opt = -
+> Progress 5.2735%, elapsed 48.2 s, iters = (4327, 0), opt = -
+> Progress 5.42%, elapsed 52.7 s, iters = (4397, 0), opt = -
+> Progress 5.4201%, elapsed 54.0 s, iters = (4411, 0), opt = -
+> Progress 5.6659%, elapsed 57.2 s, iters = (5023, 0), opt = -
+> Progress 5.8609%, elapsed 60.0 s, iters = (5577, 0), opt = -
+> Progress 6.0563%, elapsed 63.2 s, iters = (6143, 0), opt = -
+> Progress 6.0563%, elapsed 66.5 s, iters = (6149, 0), opt = -
+> Progress 9.5721%, elapsed 69.3 s, iters = (7230, 0), opt = -
+> Progress 9.5721%, elapsed 72.6 s, iters = (7236, 0), opt = -
+> Progress 9.9609%, elapsed 75.0 s, iters = (7855, 0), opt = -
+> Progress 9.9625%, elapsed 79.4 s, iters = (7937, 0), opt = -
+> Progress 9.9635%, elapsed 81.0 s, iters = (8053, 0), opt = -
+> Progress 10.0587%, elapsed 85.3 s, iters = (8083, 0), opt = -
+> Progress 10.0609%, elapsed 88.8 s, iters = (8129, 0), opt = -
+> Progress 10.061%, elapsed 90.9 s, iters = (8131, 0), opt = -
+> Progress 11.2793%, elapsed 93.0 s, iters = (8493, 0), opt = -
+> Progress 11.5235%, elapsed 96.1 s, iters = (8647, 0), opt = -
+> Progress 11.5235%, elapsed 99.4 s, iters = (8653, 0), opt = -
+> Progress 11.67%, elapsed 103.9 s, iters = (8723, 0), opt = -
+> Progress 11.67%, elapsed 105.0 s, iters = (8730, 0), opt = -
+> Progress 11.9159%, elapsed 108.2 s, iters = (9079, 0), opt = -
+> Progress 12.1116%, elapsed 111.0 s, iters = (9318, 0), opt = -
+> Progress 12.3063%, elapsed 115.6 s, iters = (9525, 0), opt = -
+> Progress 12.3064%, elapsed 117.0 s, iters = (9558, 0), opt = -
+> Progress 12.5987%, elapsed 120.3 s, iters = (10617, 0), opt = -
+> Progress 12.6845%, elapsed 123.0 s, iters = (11392, 0), opt = -
+> Progress 13.5501%, elapsed 126.0 s, iters = (14235, 0), opt = -
+> Progress 13.7706%, elapsed 130.1 s, iters = (15335, 0), opt = -
+> Progress 13.7706%, elapsed 133.4 s, iters = (15341, 0), opt = -
+> Progress 37.5612%, elapsed 135.0 s, iters = (17586, 0), opt = -
+> Progress 37.5987%, elapsed 139.9 s, iters = (17934, 0), opt = -
+> Progress 37.7929%, elapsed 141.0 s, iters = (19371, 0), opt = -
+> Progress 38.6537%, elapsed 144.5 s, iters = (21256, 0), opt = -
+> Progress 38.7706%, elapsed 147.3 s, iters = (21842, 0), opt = -
+> Progress 38.9465%, elapsed 150.0 s, iters = (22627, 0), opt = -
+> Progress 50.1974%, elapsed 153.0 s, iters = (25304, 0), opt = -
+> Progress 50.1974%, elapsed 156.4 s, iters = (25308, 0), opt = -
+> Progress 50.2035%, elapsed 159.0 s, iters = (25535, 0), opt = -
+> Progress 50.5386%, elapsed 162.0 s, iters = (29554, 0), opt = -
+> Progress 50.7629%, elapsed 165.0 s, iters = (33211, 0), opt = -
+> Progress 52.3748%, elapsed 168.0 s, iters = (35248, 0), opt = -
+> Progress 52.5412%, elapsed 172.9 s, iters = (35838, 0), opt = -
+> Progress 52.7364%, elapsed 174.0 s, iters = (37504, 0), opt = -
+> Progress 53.3224%, elapsed 177.9 s, iters = (41573, 0), opt = -
+> Progress 53.3224%, elapsed 181.1 s, iters = (41577, 0), opt = -
+> Progress 53.3285%, elapsed 183.7 s, iters = (41804, 0), opt = -
+> Progress 53.7127%, elapsed 186.0 s, iters = (43692, 0), opt = -
+> Progress 55.6662%, elapsed 189.6 s, iters = (45746, 0), opt = -
+> Progress 55.6662%, elapsed 192.8 s, iters = (45750, 0), opt = -
+
+--------------------
+Synthesis summary
+constraint 1: LRA>3/5 ["goal1"]
+constraint 2: LRA>3/5 ["goal2"]
+
+method: AR, synthesis time: 194.43 s
+number of holes: 12, family size: 16777216, super quotient: 27 states / 90 actions
+explored: 100 %
+AR stats: avg MDP size: 20, iterations: 47373
+
+feasible: no
+--------------------
+

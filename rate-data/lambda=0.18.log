@@ -1,0 +1,56 @@
+2023-04-15 17:06:12,654 - cli.py - This is Paynt version 0.1.0.
+2023-04-15 17:06:12,654 - sketch.py - loading sketch from ./models/pomdp/no-goal-state/blind-nanny/sketch.templ ...
+2023-04-15 17:06:12,656 - prism_parser.py - PRISM model type: PrismModelType.POMDP
+2023-04-15 17:06:12,656 - prism_parser.py - loading properties from ./models/pomdp/no-goal-state/blind-nanny/sketch.props ...
+2023-04-15 17:06:12,657 - prism_parser.py - found the following specification: constraints: LRA>3/5 ["goal1"],LRA>3/5 ["goal2"], optimality objective: none
+2023-04-15 17:06:12,676 - sketch.py - constructed explicit quotient having 27 states and 90 actions
+2023-04-15 17:06:12,676 - sketch.py - found the following specification constraints: LRA>3/5 ["goal1"],LRA>3/5 ["goal2"], optimality objective: none
+2023-04-15 17:06:12,676 - quotient_pomdp.py - Constructed POMDP having 15 observations.
+2023-04-15 17:06:12,677 - quotient_pomdp.py - Unfolding POMDP using the following memory allocation vector: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] ...
+2023-04-15 17:06:12,677 - quotient_pomdp.py - Constructed quotient MDP having 27 states and 90 actions.
+2023-04-15 17:06:12,677 - synthesizer.py - Synthesis initiated.
+> Progress 3.3337%, elapsed 3.0 s, iters = (2014, 0), opt = -
+> Progress 4.3701%, elapsed 6.0 s, iters = (5197, 0), opt = -
+> Progress 4.6693%, elapsed 9.0 s, iters = (7195, 0), opt = -
+> Progress 9.6443%, elapsed 12.0 s, iters = (9190, 0), opt = -
+> Progress 10.6456%, elapsed 15.4 s, iters = (11770, 0), opt = -
+> Progress 12.6972%, elapsed 18.0 s, iters = (15158, 0), opt = -
+> Progress 12.7037%, elapsed 21.0 s, iters = (15410, 0), opt = -
+> Progress 13.088%, elapsed 24.0 s, iters = (20292, 0), opt = -
+> Progress 14.8437%, elapsed 27.0 s, iters = (23961, 0), opt = -
+> Progress 15.204%, elapsed 30.0 s, iters = (26593, 0), opt = -
+> Progress 28.3224%, elapsed 33.4 s, iters = (30937, 0), opt = -
+> Progress 28.5171%, elapsed 36.0 s, iters = (31933, 0), opt = -
+> Progress 30.6662%, elapsed 39.0 s, iters = (34930, 0), opt = -
+> Progress 50.197%, elapsed 42.0 s, iters = (37376, 0), opt = -
+> Progress 50.2032%, elapsed 45.2 s, iters = (37653, 0), opt = -
+> Progress 50.5862%, elapsed 48.0 s, iters = (39184, 0), opt = -
+> Progress 50.5936%, elapsed 51.1 s, iters = (39564, 0), opt = -
+> Progress 50.6837%, elapsed 54.2 s, iters = (39711, 0), opt = -
+> Progress 50.6897%, elapsed 57.3 s, iters = (39860, 0), opt = -
+> Progress 51.9043%, elapsed 60.0 s, iters = (40525, 0), opt = -
+> Progress 52.295%, elapsed 63.8 s, iters = (40753, 0), opt = -
+> Progress 52.5409%, elapsed 66.2 s, iters = (41360, 0), opt = -
+> Progress 52.9313%, elapsed 69.5 s, iters = (42441, 0), opt = -
+> Progress 62.6971%, elapsed 72.3 s, iters = (43502, 0), opt = -
+> Progress 63.0395%, elapsed 75.0 s, iters = (44083, 0), opt = -
+> Progress 63.1836%, elapsed 78.4 s, iters = (44353, 0), opt = -
+> Progress 63.186%, elapsed 81.5 s, iters = (44403, 0), opt = -
+> Progress 64.6485%, elapsed 84.8 s, iters = (44885, 0), opt = -
+> Progress 64.795%, elapsed 87.1 s, iters = (44959, 0), opt = -
+> Progress 65.2345%, elapsed 90.0 s, iters = (45457, 0), opt = -
+> Progress 65.4322%, elapsed 93.0 s, iters = (45849, 0), opt = -
+
+--------------------
+Synthesis summary
+constraint 1: LRA>3/5 ["goal1"]
+constraint 2: LRA>3/5 ["goal2"]
+
+method: AR, synthesis time: 93.08 s
+number of holes: 12, family size: 16777216, super quotient: 27 states / 90 actions
+explored: 100 %
+AR stats: avg MDP size: 20, iterations: 45955
+
+feasible: no
+--------------------
+
