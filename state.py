@@ -32,6 +32,10 @@ sum = sum(df['time'], datetime.timedelta())
 
 df['time_sec'] = df['time'] / datetime.timedelta(seconds=1)
 # df.where(df['mdp_size'] == 4, inplace=True)
+df['time'] = df['time'].dt.seconds
+
+pd.to_pickle(df, "state-sizes.pickle")
+
 
 over_second_sum = np.sum(df.loc[df['time_sec'] > 1, 'time_sec'])
 no_second_sum = np.sum(df.loc[df['time_sec'] < 1, 'time_sec'])

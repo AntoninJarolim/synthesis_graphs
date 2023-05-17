@@ -1,13 +1,3 @@
-"""
-Generates graph using data in file family-times.csv
-which contains collected data from PAYNT about each family in format:
-'family_size,analysis_time'
-Data are used to generate boxplot for 'nr_states' size
-to analyze the deviation and distribution of analysis times
-"""
-__author__ = "Antonín Jarolím"
-__version__ = "1.0.1"
-__email__ = "xjarol06@vutbr.cz"
 
 # Generic/Built-in
 import datetime
@@ -31,6 +21,9 @@ sum = sum(df['time'], datetime.timedelta())
 
 df['time_sec'] = df['time'] / datetime.timedelta(seconds=1)
 # df.where(df['family_size'] == 4, inplace=True)
+
+df['time'] = df['time'].dt.seconds
+pd.to_pickle(df, "family-sizes.pickle")
 
 p_var = statistics.pvariance(df['time_sec'])
 standard_deviation = math.sqrt(p_var)
